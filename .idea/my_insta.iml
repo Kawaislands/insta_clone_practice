@@ -705,7 +705,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rails (vbundled(5.2.4.1)) [path][gem]" type="rubylib">
+      <library name="rails (vbundled(5.2.3)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
