@@ -142,6 +142,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="addressable (vbundled(2.7.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/tasks" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="annotate (vbundled(3.0.3)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -341,6 +365,19 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/exe" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="carrierwave (vbundled(2.0.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/carrierwave-2.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/carrierwave-2.0.2/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -573,6 +610,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="image_processing (vbundled(1.10.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/image_processing-1.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/image_processing-1.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="jaro_winkler (vbundled(1.5.4)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -746,6 +796,19 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.3.3/test" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.3.3/script" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_magick (vbundled(4.9.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mini_magick-4.9.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mini_magick-4.9.5/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1094,6 +1157,33 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pry-rails-0.3.9/spec" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pry-rails-0.3.9/scenarios" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="public_suffix (vbundled(4.0.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/.github" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/data" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.1/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -1509,6 +1599,24 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-vips (vbundled(2.0.16)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-vips-2.0.16/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-vips-2.0.16/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-vips-2.0.16/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-vips-2.0.16/example" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/ruby-vips-2.0.16/example" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

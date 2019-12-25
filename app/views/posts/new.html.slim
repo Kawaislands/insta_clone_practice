@@ -1,0 +1,6 @@
+= form_with model: @post, local: true do |f|
+  = f.label :images
+  = f.file_field :images, multiple: true, accept: 'image/*'
+  = f.label :body
+  = f.text_area :body
+  = f.submit
