@@ -1,6 +1,6 @@
-= form_with model: @post, local: true do |f|
-  = f.label :images
-  = f.file_field :images, multiple: true, accept: 'image/*'
-  = f.label :body
-  = f.text_area :body
-  = f.submit
+.container
+  .row
+    .col-md-6.col-12.offset-md-3
+      .card
+        .card-body
+          = render 'form', post: @post

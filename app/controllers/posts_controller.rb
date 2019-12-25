@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post  = Post.new
+    @post = Post.new
   end
 
   def create
@@ -34,11 +34,13 @@ class PostsController < ApplicationController
   end
 
   def destroy
+    @post = current_user.posts.find(params[:id])
     @post.destroy!
     redirect_to posts_path, success: '掲示板を削除しました。'
   end
 
   def show
+    @post = current_user.posts.find(params[:id])
   end
 
   private
