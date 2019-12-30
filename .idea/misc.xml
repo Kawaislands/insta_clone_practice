@@ -3,5 +3,13 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/views/comments/_comment.html.slim" />
+    <file url="file://$PROJECT_DIR$/app/views/comments/_form.html.slim" />
+    <file url="file://$PROJECT_DIR$/app/views/comments/create.js.slim" />
+    <file url="file://$PROJECT_DIR$/app/views/comments/destroy.js.slim" />
+    <file url="file://$PROJECT_DIR$/app/views/comments/edit.jsl.slim" />
+    <file url="file://$PROJECT_DIR$/app/views/comments/update.jsl.slim" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="rbenv: 2.5.1" project-jdk-type="RUBY_SDK" />
 </project>

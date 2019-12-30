@@ -1,2 +1,5 @@
-h1 Comments#create
-p Find me in app/views/comments/create.js.slim
+- if @comment.errors.present?
+  | alert("#{@comment.errors.full_messages.join('\n')}");
+- else
+  | $('.comments-box').prepend("#{j render('comments/comment', comment: @comment)}");
+  | $('.input-comment-body').val('');
