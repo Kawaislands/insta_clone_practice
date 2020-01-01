@@ -8,6 +8,5 @@ Rails.application.routes.draw do
 
   resources :posts, shallow: true do
     resources :comments
-    resources :likes, only: %i[create destroy]
   end
 end
