@@ -13,4 +13,5 @@ Rails.application.routes.draw do
       get :like_posts
     end
   end
+  resources :relationships, only: %i[create destroy]
 end
