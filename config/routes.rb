@@ -13,5 +13,4 @@ Rails.application.routes.draw do
       get :like_posts
     end
   end
-
 end
