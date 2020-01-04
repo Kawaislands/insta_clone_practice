@@ -12,4 +12,8 @@ class LikesController < ApplicationController
     #current_user.like.find(params[:post_id]).destroy
     Like.find(params[:id]).destroy
   end
+
+  def like_posts
+    @posts = current_user.like_posts.includes(:user).page(params[:page]).order(created_at: :desc).per(10)
+  end
 end
