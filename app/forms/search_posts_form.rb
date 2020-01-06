@@ -6,8 +6,9 @@ class SearchPostsForm
   attribute :comment_body, :string
 
   def search
-    scope = Post.distinct
+    scope = Post.all
     scope = scope.body_contain(body) if body.present?
+    #scope.by_comment(body) if body.present?
     scope
   end
 end
