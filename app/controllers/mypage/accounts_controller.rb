@@ -1,2 +1,3 @@
-class Mypage::AccountsController < ApplicationController
+class Mypage::AccountsController < Mypage::BaseController
+
 end
