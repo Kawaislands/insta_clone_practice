@@ -15,4 +15,7 @@ Rails.application.routes.draw do
     end
   end
   resources :relationships, only: %i[create destroy]
+  resources :activities, only: [] do
+    patch :read, on: :member
+  end
 end

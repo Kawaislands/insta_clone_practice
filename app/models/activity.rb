@@ -25,4 +25,6 @@ class Activity < ApplicationRecord
   belongs_to :subject, polymorphic: true
   belongs_to :user
   enum action_type: { commented_to_own_post: 0, liked_to_own_post: 1, followed_me: 2 }
+  enum read: { unread: false, read: true }
+  scope :recent, ->(count) { order(created_at: :desc).limit(count)}
 end
