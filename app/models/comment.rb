@@ -24,4 +24,5 @@ class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :post
   validates :body, presence: true, length: { maximum: 1000 }
+  has_one :activity, as: :subject, dependent: :destroy
 end
