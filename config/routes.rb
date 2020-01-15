@@ -18,4 +18,9 @@ Rails.application.routes.draw do
   resources :activities, only: [] do
     patch :read, on: :member
   end
+
+  namespace :mypage do
+    resource :account, only: %i[edit update]
+    resources :activities, only: %i[index]
+  end
 end

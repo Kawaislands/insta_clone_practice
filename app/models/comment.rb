@@ -28,10 +28,6 @@ class Comment < ApplicationRecord
 
   after_create_commit :create_activities
 
-  def redirect_path
-    post_path(post, anchor: "comment-#{id}")
-  end
-
   private
 
   def create_activities

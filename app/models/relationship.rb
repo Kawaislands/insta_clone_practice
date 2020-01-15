@@ -23,10 +23,6 @@ class Relationship < ApplicationRecord
   validates :follower_id, uniqueness: { scope: :followed_id }
   has_one :activity, as: :subject, dependent: :destroy
 
-  def redirect_path
-    post_path(post, anchor: "comment-#{id}")
-  end
-
   after_create_commit :create_activities
 
   private
