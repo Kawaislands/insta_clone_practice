@@ -18,6 +18,7 @@
 
 class User < ApplicationRecord
   authenticates_with_sorcery!
+  #mount_uploader :avatar, AvatarUploader
   validates :username, uniqueness: true, presence: true
   validates :email, uniqueness: true
   validates :password, length: { minimum: 3 }, if: -> { new_record? || changes[:crypted_password] }
