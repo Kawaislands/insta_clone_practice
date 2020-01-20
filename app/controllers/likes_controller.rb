@@ -5,6 +5,7 @@ class LikesController < ApplicationController
     @post = Post.find(params[:post_id])
     # current_user.like.create(post_id: params[:post_id])
     Like.create(user_id: current_user.id, post_id: params[:post_id])
+    UserMailer.with(user_from: current_user, user_to: @post.user, post: @post).like_post.deliver_later if current_user.like(@post)
   end
 
   def destroy

@@ -53,6 +53,7 @@ group :development do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'html2slim'
+  gem 'letter_opener_web', '~> 1.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
