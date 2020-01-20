@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+  require 'sidekiq/web'
+  if Rails.env.development?
+    mount LetterOpenerWeb::Engine, at: '/letter_opener'
+    mount Sidekiq::Web, at: '/sidekiq'
+  end
+
   root 'posts#index'
 
   resources :users
@@ -25,5 +30,4 @@ Rails.application.routes.draw do
     resource :account, only: %i[edit update]
     resources :activities, only: %i[index]
   end
-
 end
