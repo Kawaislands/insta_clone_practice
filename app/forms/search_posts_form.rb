@@ -8,7 +8,7 @@ class SearchPostsForm
   def search
     scope = Post.all
     scope = scope.body_contain(body) if body.present?
-    #scope.by_comment(body) if body.present?
+    # scope.by_comment(body) if body.present?
     scope
   end
 end
